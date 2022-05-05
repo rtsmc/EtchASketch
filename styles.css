@@ -85,7 +85,7 @@ body {
 
 #drawing-board {
     width: 512px;
-    height: 512px;
+    height: auto;
     display: grid;
     position: fixed;
 }
@@ -113,4 +113,8 @@ body {
 
 #sliderLabel {
     margin-bottom: 0px;
+}
+
+#sizeSlider {
+    width: 125%;
 }
