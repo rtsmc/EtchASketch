@@ -110,3 +110,7 @@ body {
 .pixel:hover {
     background-color: hsl(0 0% 90%);
 }
+
+#sliderLabel {
+    margin-bottom: 0px;
+}
