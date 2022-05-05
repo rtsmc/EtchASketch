@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch A Sketch</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif">
+</head>
+<body>
+    <div id="title-bar">
+        <p>Etch A Sketch</p>
+        <div id="theme-button">
+            <button id="dark-mode-toggle">
+                <svg id="theme-toggle" xmlns="http://www.w3.org/2000/svg" width="35" height="35"
+                    viewBox="0 0 571.83 571.83">
+                    <rect class="rect" x="83.74" y="83.74" width="404.35" height="404.35" transform="translate(-118.43 285.92) rotate(-45)"/>
+                    <rect class="rect" x="84" y="84.05" width="404.35" height="404.35"/>
+                    <circle class="moon-circle" cx="286.18" cy="286.22" r="173.94"/>
+                    <circle class="toggle-circle" cx="286.18" cy="286.22" r="149.76"/>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <div id="main-content">
+        <div id="options">
+            <button id="gridBtn">Grid</button>
+            <input id="colorPicker" type="color" value="var(--foreground)"/>
+            <button id="drawBtn">Color</button>
+            <button id="eraserBtn">Eraser</button>
+            <button id="clearBtn">Clear</button>
+        </div>
+        <div id="drawing-board">
+        </div>
+    </div>
+    <script src="darkmode.js"></script>
+    <script src="drawingboard.js"></script>
+</body>
+</html>
