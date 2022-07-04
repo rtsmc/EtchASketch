@@ -71,6 +71,11 @@ body {
     padding-top: 140px;
 }
 
+.darkmode .toggle-circle {
+    transform: translateX(0%);
+    transition: transform 250ms linear;
+}
+
 .toggle-circle {
     transform: translateX(-16%);
 }
